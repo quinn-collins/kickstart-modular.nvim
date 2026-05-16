@@ -168,6 +168,14 @@ return {
             },
           },
         },
+        gopls = {
+          analyses = {
+            unusedparams = true,
+          },
+          staticcheck = true,
+          gofumpt = true,
+        },
+        golangci_lint_ls = {},
       }
 
       -- Ensure the servers and tools above are installed
